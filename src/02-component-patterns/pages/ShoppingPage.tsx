@@ -34,14 +34,14 @@ export const ShoppingPage = () => {
                     </ShoppingCard>
                 </div>
 
-                <div>
+                {/* <div>
                     <h3>Inline Styles</h3>
                     <ShoppingCard product={product} style={{backgroundColor: "palegreen"}}>
                         <ShoppingCard.Image style={{ border:'1px solid #000', borderRadius:'4px', padding:'5px', width:'200px'}} />
                         <ShoppingCard.Title style={{ color: 'DarkGray'}}/>
                         <ShoppingCard.Buttons style={{flex:'flex', alignContent:'space-between'}}/>
                     </ShoppingCard>
-                </div>
+                </div> */}
 
             </div>
 
