@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { ProductContext } from "./ShoppingCard";
 import styles from '../styles/styles.module.css';
-import { Interface } from "readline";
 
 export interface Props {
     className?: string,
