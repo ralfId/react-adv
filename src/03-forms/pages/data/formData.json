@@ -1,0 +1,111 @@
+[
+    {
+        "inputType": "text",
+        "fieldType": "input",
+        "placeholder": "First Name",
+        "label": "First Name",
+        "name": "firstName",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "First Name is required",
+                "value": ""
+            },
+            {
+                "type": "minLength",
+                "message": "First Name must be at least 2 characters",
+                "value": 2
+            },
+            {
+                "type": "maxLength",
+                "message": "First Name must be less than 20 characters",
+                "value": 20
+            },
+            {
+                "type": "pattern",
+                "message": "First Name must contain only letters",
+                "value": "^[a-zA-Z]*$"
+            }
+        ]
+    
+},
+{
+    "inputType": "text",
+    "fieldType": "input",
+    "placeholder": "Last Name",
+    "label": "Last Name",
+    "name": "lastName",
+    "value": "",
+    "validations": [
+        {
+            "type": "required",
+            "message": "Last Name is required",
+            "value": ""
+        },
+        {
+            "type": "minLength",
+            "message": "Last Name must be at least 2 characters",
+            "value": 2
+        },
+        {
+            "type": "maxLength",
+            "message": "Last Name must be less than 20 characters",
+            "value": 20
+        },
+        {
+            "type": "pattern",
+            "message": "Last Name must contain only letters",
+            "value": "^[a-zA-Z]*$"
+        }
+    ]
+},
+{
+    "inputType": "email",
+    "fieldType": "input",
+    "placeholder": "Email",
+    "label": "Email",
+    "name": "email",
+    "value": "",
+    "validations": [
+        {
+            "type": "required",
+            "message": "Email is required",
+            "value": ""
+        },{
+            "type": "isEmail",
+            "message": "Incorrect email format",
+            "value": ""
+        }
+    ]
+},
+{
+    "inputType": "",
+    "fieldType": "select",
+    "placeholder": "",
+    "label": "Select your favorite game",
+    "name": "select_game",
+    "value": "",
+    "options": [
+        {
+            "id": 1,
+            "label": "WW2"
+        },
+        {
+            "id": 2,
+            "label": "Call od Duty"
+        },
+        {
+            "id": 3,
+            "label": "Battlefield"
+        }
+    ],
+    "validations": [
+        {
+            "type": "required",
+            "message": "Favorite game is required",
+            "value": ""
+        }
+    ]
+}
+]
